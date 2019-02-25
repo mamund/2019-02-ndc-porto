@@ -5,11 +5,11 @@ The following actions need to be supported:
 
  * StartOnboarding
  * CollectCompanyData
- * WriteCompanyData
+ * SaveCompanyData
  * CollectAccountData
- * WriteAccountData
+ * SaveAccountData
  * CollectActivityData
- * WriteActivityData
+ * SaveActivityData
  * CommitOnboarding
  * CancelOnboarding
 
@@ -42,7 +42,7 @@ The following data properties need to be supported:
 * postalCode
 * country
 * telephone
-* email
+* email (r)
 * status (r)
 * dateCreated
 * dateUpdated 
