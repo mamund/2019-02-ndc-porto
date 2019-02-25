@@ -1,6 +1,20 @@
 ## Onboarding API Vocabulary
 
+### Action Elements
+The following actions need to be supported:
+
+ * StartOnboarding
+ * CollectCompanyData
+ * WriteCompanyData
+ * CollectAccountData
+ * WriteAccountData
+ * CollectActivityData
+ * WriteActivityData
+ * CommitOnboarding
+ * CancelOnboarding
+
 ### Data Elements
+The following data properties need to be supported:
 
 ##### Onboarding Data
 
