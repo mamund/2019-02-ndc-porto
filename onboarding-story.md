@@ -1,5 +1,7 @@
 ## The Onboarding Story at BigCo, Inc.
 
+repo: https://github.com/mamund/2019-02-ndc-porto/
+
 We need a new API that combines the work of the *company*, *account*, and *activity* services all into one place. It should offer a seamless experince, collecting data and generating new valid *company*, *account*, and *activity* records.
 
 Users should be able to start an onboarding process that:
@@ -14,4 +16,11 @@ Users should be able to start an onboarding process that:
  * allows the user to 
    * review and, if all is good, commit the data and create all the records
    * cancel the whole job, if they wish
-   * or go back and edit eah part before submitting (version 2)
+   * or go back and edit each part before submitting (version 2)
+
+
+### Questions
+  * "reference later"
+  * "cancel the whole job"
+  * "edit each part (v2)"
+  
