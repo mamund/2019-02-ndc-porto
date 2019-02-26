@@ -23,4 +23,10 @@ Users should be able to start an onboarding process that:
   * "reference later"
   * "cancel the whole job"
   * "edit each part (v2)"
+  * There is no security here
+  * Should it be a sinble blob of JSON?
+  * What if a record (company/account) already exists?
+  * What roles are affected by this?
+  * Who is responsible for creating this (API, Client)
+  * Do we need to implement a transaction?
   
