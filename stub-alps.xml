@@ -1,0 +1,37 @@
+<alps version="1.0">
+    <doc>Sample ALPS Document</doc>
+
+    <!-- properties -->
+    <descriptor id="onboardingId" />
+    <descriptor id="status" />
+    <descriptor id="dateCreated" />
+    <descriptor id="dateUpdated" />
+
+    <!-- actions -->
+    <descriptor id="StartOnboarding" type="unsafe" rt="work-in-progress" />
+    <descriptor id="CollectionCompanyData" type="safe" />
+    <descriptor id="SaveCompanyData" type="unsafe" rt="work-in-progress"/>
+
+    <!-- containers -->
+    <descriptor id="work-in-progress">
+        <descriptor href="#onboardingId" />
+        <descriptor href="#status" />
+        <descriptor href="#dateCreated" />
+        <descriptor href="#dateUpdated" />
+    <descriptor>
+
+    <!-- resources -->
+    <descriptor id="home">
+        <descriptor href="#work-in-progress" />
+        <descriptor href="StartOnboarding" />   
+    </descriptor>
+
+    
+</alps>
+
+
+
+
+
+
+
