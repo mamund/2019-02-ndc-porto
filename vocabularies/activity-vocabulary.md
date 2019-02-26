@@ -1,4 +1,4 @@
-## Activity API Vocavulary
+## Activity API Vocabulary
 
 ### Actions
 
